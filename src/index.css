@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .banner {
-  /* background: url("./assets/banner.svg"); */
+  background: url("./assets/banner.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 .banner02 {
-  /* background: url("./assets/banner02.svg"); */
+  background: url("./assets/banner02.svg");
   background-color: #0b65c6;
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@
 }
 
 .banner03 {
-  /* background: url("./assets/banner03.svg"); */
+  background: url("./assets/banner03.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
 }
 
 .banner04 {
-  /* background: url("./assets/banner04.svg"); */
+  background: url("./assets/banner04.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
