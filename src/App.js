@@ -5,6 +5,7 @@ import assets from './assets';
 import { Download, Features, SectionWrapper } from './components';
 
 function App() {
+  
   return (
     <>
       <SectionWrapper 
@@ -38,11 +39,20 @@ function App() {
       />
       <Download />
 
-      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>Made with love by {" "}
-        <span className="bold">
-          BaoNguyenDeV
-        </span>
+      <div 
+        className="px-4 py-2 justify-center 
+        items-center bg-primary flex-col 
+        text-center banner04"
+      >
+        <p 
+          className={`
+            ${styles.pText} 
+            ${styles.whiteText}`}
+          >
+            Made with love by {" "}
+          <span className="bold">
+            BaoNguyenDeV
+          </span>
         </p>
       </div>
     </>
